@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A55B25041CD069880046334A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A55B25031CD069880046334A /* main.m */; };
+		A55B25071CD069880046334A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A55B25061CD069880046334A /* AppDelegate.m */; };
+		A55B250A1CD069880046334A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A55B25091CD069880046334A /* ViewController.m */; };
+		A55B250D1CD069880046334A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55B250B1CD069880046334A /* Main.storyboard */; };
+		A55B250F1CD069880046334A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55B250E1CD069880046334A /* Assets.xcassets */; };
+		A55B25121CD069880046334A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55B25101CD069880046334A /* LaunchScreen.storyboard */; };
+		A55B251D1CD069880046334A /* DHJellyViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A55B251C1CD069880046334A /* DHJellyViewTests.m */; };
+		A55B25281CD069880046334A /* DHJellyViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A55B25271CD069880046334A /* DHJellyViewUITests.m */; };
+		A55B25371CD0699F0046334A /* DHJellyView.m in Sources */ = {isa = PBXBuildFile; fileRef = A55B25361CD0699F0046334A /* DHJellyView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A55B25191CD069880046334A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A55B24F71CD069880046334A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A55B24FE1CD069880046334A;
+			remoteInfo = DHJellyView;
+		};
+		A55B25241CD069880046334A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A55B24F71CD069880046334A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A55B24FE1CD069880046334A;
+			remoteInfo = DHJellyView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A55B24FF1CD069880046334A /* DHJellyView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHJellyView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55B25031CD069880046334A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A55B25051CD069880046334A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A55B25061CD069880046334A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A55B25081CD069880046334A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A55B25091CD069880046334A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A55B250C1CD069880046334A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A55B250E1CD069880046334A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A55B25111CD069880046334A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A55B25131CD069880046334A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A55B25181CD069880046334A /* DHJellyViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHJellyViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55B251C1CD069880046334A /* DHJellyViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHJellyViewTests.m; sourceTree = "<group>"; };
+		A55B251E1CD069880046334A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A55B25231CD069880046334A /* DHJellyViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHJellyViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55B25271CD069880046334A /* DHJellyViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHJellyViewUITests.m; sourceTree = "<group>"; };
+		A55B25291CD069880046334A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A55B25351CD0699F0046334A /* DHJellyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHJellyView.h; sourceTree = "<group>"; };
+		A55B25361CD0699F0046334A /* DHJellyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHJellyView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A55B24FC1CD069880046334A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55B25151CD069880046334A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55B25201CD069880046334A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A55B24F61CD069880046334A = {
+			isa = PBXGroup;
+			children = (
+				A55B25011CD069880046334A /* DHJellyView */,
+				A55B251B1CD069880046334A /* DHJellyViewTests */,
+				A55B25261CD069880046334A /* DHJellyViewUITests */,
+				A55B25001CD069880046334A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A55B25001CD069880046334A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A55B24FF1CD069880046334A /* DHJellyView.app */,
+				A55B25181CD069880046334A /* DHJellyViewTests.xctest */,
+				A55B25231CD069880046334A /* DHJellyViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A55B25011CD069880046334A /* DHJellyView */ = {
+			isa = PBXGroup;
+			children = (
+				A55B25051CD069880046334A /* AppDelegate.h */,
+				A55B25061CD069880046334A /* AppDelegate.m */,
+				A55B25081CD069880046334A /* ViewController.h */,
+				A55B25091CD069880046334A /* ViewController.m */,
+				A55B25351CD0699F0046334A /* DHJellyView.h */,
+				A55B25361CD0699F0046334A /* DHJellyView.m */,
+				A55B250B1CD069880046334A /* Main.storyboard */,
+				A55B250E1CD069880046334A /* Assets.xcassets */,
+				A55B25101CD069880046334A /* LaunchScreen.storyboard */,
+				A55B25131CD069880046334A /* Info.plist */,
+				A55B25021CD069880046334A /* Supporting Files */,
+			);
+			path = DHJellyView;
+			sourceTree = "<group>";
+		};
+		A55B25021CD069880046334A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A55B25031CD069880046334A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A55B251B1CD069880046334A /* DHJellyViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A55B251C1CD069880046334A /* DHJellyViewTests.m */,
+				A55B251E1CD069880046334A /* Info.plist */,
+			);
+			path = DHJellyViewTests;
+			sourceTree = "<group>";
+		};
+		A55B25261CD069880046334A /* DHJellyViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A55B25271CD069880046334A /* DHJellyViewUITests.m */,
+				A55B25291CD069880046334A /* Info.plist */,
+			);
+			path = DHJellyViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A55B24FE1CD069880046334A /* DHJellyView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55B252C1CD069880046334A /* Build configuration list for PBXNativeTarget "DHJellyView" */;
+			buildPhases = (
+				A55B24FB1CD069880046334A /* Sources */,
+				A55B24FC1CD069880046334A /* Frameworks */,
+				A55B24FD1CD069880046334A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DHJellyView;
+			productName = DHJellyView;
+			productReference = A55B24FF1CD069880046334A /* DHJellyView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A55B25171CD069880046334A /* DHJellyViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55B252F1CD069880046334A /* Build configuration list for PBXNativeTarget "DHJellyViewTests" */;
+			buildPhases = (
+				A55B25141CD069880046334A /* Sources */,
+				A55B25151CD069880046334A /* Frameworks */,
+				A55B25161CD069880046334A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A55B251A1CD069880046334A /* PBXTargetDependency */,
+			);
+			name = DHJellyViewTests;
+			productName = DHJellyViewTests;
+			productReference = A55B25181CD069880046334A /* DHJellyViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A55B25221CD069880046334A /* DHJellyViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55B25321CD069880046334A /* Build configuration list for PBXNativeTarget "DHJellyViewUITests" */;
+			buildPhases = (
+				A55B251F1CD069880046334A /* Sources */,
+				A55B25201CD069880046334A /* Frameworks */,
+				A55B25211CD069880046334A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A55B25251CD069880046334A /* PBXTargetDependency */,
+			);
+			name = DHJellyViewUITests;
+			productName = DHJellyViewUITests;
+			productReference = A55B25231CD069880046334A /* DHJellyViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A55B24F71CD069880046334A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DavidHuang;
+				TargetAttributes = {
+					A55B24FE1CD069880046334A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A55B25171CD069880046334A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A55B24FE1CD069880046334A;
+					};
+					A55B25221CD069880046334A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A55B24FE1CD069880046334A;
+					};
+				};
+			};
+			buildConfigurationList = A55B24FA1CD069880046334A /* Build configuration list for PBXProject "DHJellyView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A55B24F61CD069880046334A;
+			productRefGroup = A55B25001CD069880046334A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A55B24FE1CD069880046334A /* DHJellyView */,
+				A55B25171CD069880046334A /* DHJellyViewTests */,
+				A55B25221CD069880046334A /* DHJellyViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A55B24FD1CD069880046334A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55B25121CD069880046334A /* LaunchScreen.storyboard in Resources */,
+				A55B250F1CD069880046334A /* Assets.xcassets in Resources */,
+				A55B250D1CD069880046334A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55B25161CD069880046334A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55B25211CD069880046334A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A55B24FB1CD069880046334A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55B250A1CD069880046334A /* ViewController.m in Sources */,
+				A55B25071CD069880046334A /* AppDelegate.m in Sources */,
+				A55B25041CD069880046334A /* main.m in Sources */,
+				A55B25371CD0699F0046334A /* DHJellyView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55B25141CD069880046334A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55B251D1CD069880046334A /* DHJellyViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55B251F1CD069880046334A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55B25281CD069880046334A /* DHJellyViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A55B251A1CD069880046334A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A55B24FE1CD069880046334A /* DHJellyView */;
+			targetProxy = A55B25191CD069880046334A /* PBXContainerItemProxy */;
+		};
+		A55B25251CD069880046334A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A55B24FE1CD069880046334A /* DHJellyView */;
+			targetProxy = A55B25241CD069880046334A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A55B250B1CD069880046334A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A55B250C1CD069880046334A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A55B25101CD069880046334A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A55B25111CD069880046334A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A55B252A1CD069880046334A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A55B252B1CD069880046334A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A55B252D1CD069880046334A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DHJellyView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boyuanitsm.DHJellyView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A55B252E1CD069880046334A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DHJellyView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boyuanitsm.DHJellyView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A55B25301CD069880046334A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DHJellyViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boyuanitsm.DHJellyViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DHJellyView.app/DHJellyView";
+			};
+			name = Debug;
+		};
+		A55B25311CD069880046334A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DHJellyViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boyuanitsm.DHJellyViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DHJellyView.app/DHJellyView";
+			};
+			name = Release;
+		};
+		A55B25331CD069880046334A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DHJellyViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boyuanitsm.DHJellyViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DHJellyView;
+			};
+			name = Debug;
+		};
+		A55B25341CD069880046334A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DHJellyViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boyuanitsm.DHJellyViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DHJellyView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A55B24FA1CD069880046334A /* Build configuration list for PBXProject "DHJellyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55B252A1CD069880046334A /* Debug */,
+				A55B252B1CD069880046334A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A55B252C1CD069880046334A /* Build configuration list for PBXNativeTarget "DHJellyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55B252D1CD069880046334A /* Debug */,
+				A55B252E1CD069880046334A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A55B252F1CD069880046334A /* Build configuration list for PBXNativeTarget "DHJellyViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55B25301CD069880046334A /* Debug */,
+				A55B25311CD069880046334A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A55B25321CD069880046334A /* Build configuration list for PBXNativeTarget "DHJellyViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55B25331CD069880046334A /* Debug */,
+				A55B25341CD069880046334A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A55B24F71CD069880046334A /* Project object */;
+}
